@@ -6,44 +6,121 @@ vk.com/ws_pw - группа вк
 WebStudio.PW - сайтом
 Trade.WebStudio.PW - поддержать меня
 -->
-<!DOCTYPE HTML>
-<html>
-    <head>
-    	<meta charset="utf-16">
-        <title>Huba1337.xyz</title>
-        <link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="animate.css">
-        <script src="yandex.js"></script>
-        <script src="anticopy.js"></script>
-        <script src="jquery.js"></script>
-        <script src="marquee.js"></script>
-        <script src="main.js"></script>
-        <script src="nazvanie.js"></script>
-    </head>
-    <body>  
-        <script language=JavaScript>
-        document.oncontextmenu=new Function("return false;")
-        </script>
-        <body oncontextmenu="return false" oncopy="return false;" oncontextmenu="return false" onselectstart="return 
-        false;">
-        <div id="center">
-		<div class="animated fadeInDown">
-		<pre style="font-size: 25px">Huba1337</pre>
-		</div>
-		<div class="animated fadeIn">
-        <pre>s/o to:</pre>
-        <pre>/<div id="marquee"></div>/</pre>
-		</div>
-		<div class="animated fadeInUp">
-		<pre><a href="http://steamcommunity.com/profiles/76561198127751580/" target=_blank>steam   </a> <a href="https://vk.com/ilaygr" target=_blank>vk    </a><a href="http://huba1337.xyz/timer/">summer    </a><a href="https://www.instagram.com/huba1337/">instagram</a></pre>
-		</div>
-        </div>
-		<audio autoplay loop id="player">
-		<source src=".mp3" />
-		<script>
-		var audio = document.currentScript.parentElement;
-		audio.volume = 0,3;
-		</script>
-		</audio>
-    </body>
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Nick Aroot</title>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="wrapper">
+    <video id="video" class="bg-video" loop autoplay autobuffer>
+      <source src="vid.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div id="large-header" class="large-header">
+    <canvas id="demo-canvas"></canvas>
+  </div>
+  <div class="text-wrapper">
+    <h1 class="main-title">Nick <span class="thin">Aroot</span></h1>
+    <p class="sub-title">Choose Your Way.&nbsp;&nbsp;&nbsp;Trust In The Future.</p>
+    <div class="socials">
+      <a href="//vk.com/nickaroot" target="_blank" class="icon vk" id="vk">
+        <svg  preserveAspectRatio="xMinYMin meet" viewBox="0 0 200 200" class="circle">  
+          <circle cx="100" cy="100" r="50"/>
+        </svg>
+        <img src="img/vk.svg">
+      </a>
+      <a href="//fb.com/nickaroot" target="_blank" class="icon facebook" id="facebook">
+        <svg  preserveAspectRatio="xMinYMin meet" viewBox="0 0 200 200" class="circle">  
+          <circle cx="100" cy="100" r="50"/>
+        </svg>
+        <img src="img/facebook.svg">
+      </a>
+      <a href="//telegram.me/nickaroot" target="_blank" class="icon telegram" id="telegram">
+        <svg  preserveAspectRatio="xMinYMin meet" viewBox="0 0 200 200" class="circle">  
+          <circle cx="100" cy="100" r="50"/>
+        </svg>
+        <img src="img/telegram.svg">
+      </a>
+      <a href="//instagram.com/nickaroot" target="_blank" class="icon instagram" id="instagram">
+        <svg  preserveAspectRatio="xMinYMin meet" viewBox="0 0 200 200" class="circle">  
+          <circle cx="100" cy="100" r="50"/>
+        </svg>
+        <img src="img/instagram-logo.svg">
+      </a>
+      <a href="//github.com/nickaroot" target="_blank" class="icon github" id="github">
+        <svg  preserveAspectRatio="xMinYMin meet" viewBox="0 0 200 200" class="circle">  
+          <circle cx="100" cy="100" r="50"/>
+        </svg>
+        <img src="img/github-logo.svg">
+      </a>
+      <a href="mailto:nickaroot@icloud.com" target="_blank" class="icon email" id="email">
+        <svg  preserveAspectRatio="xMinYMin meet" viewBox="0 0 200 200" class="circle">  
+          <circle cx="100" cy="100" r="50"/>
+        </svg>
+        <img src="img/email.svg">
+      </a>
+    </div>
+  </div>
+  <script src='Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js'></script>
+<script src='Codepen/AnimatedHeaderBg/demo-1/js/rAF.js'></script>
+<script src='Codepen/AnimatedHeaderBg/demo-1/js/TweenLite.min.js'></script>
+
+  <script type="text/javascript">
+    var red = 255;
+    var green = 255;
+    var blue = 255;
+
+    document.getElementById("vk").addEventListener("mouseenter", function(e){
+      red = 69;
+      green = 102;
+      blue = 142;
+    }, true);
+
+    document.getElementById("facebook").addEventListener("mouseenter", function(e){
+      red = 59;
+      green = 89;
+      blue = 152;
+    }, true);
+
+    document.getElementById("telegram").addEventListener("mouseenter", function(e){
+      red = 0;
+      green = 136;
+      blue = 204;
+    }, true);
+
+    document.getElementById("github").addEventListener("mouseenter", function(e){
+      red = 201;
+      green = 81;
+      blue = 12;
+    }, true);
+
+    document.getElementById("instagram").addEventListener("mouseenter", function(e){
+      red = 193;
+      green = 53;
+      blue = 132;
+    }, true);
+
+    document.getElementById("email").addEventListener("mouseenter", function(e){
+      red = 138;
+      green = 144;
+      blue = 199;
+    }, true);
+  </script>
+
+    <script  src="js/index.js"></script>
+
+
+
+</body>
+
 </html>
