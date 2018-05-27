@@ -1,0 +1,54 @@
+.body {
+       cursor: url('public_html/darova.cur'), auto;
+}
+body {
+  background-image: url("bg.gif");
+  font-family: 'Courier New', arial;
+  color: #00ff32
+}
+ video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+pre {
+    text-align: center;
+    font-family: monospace;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    color: #2ab145;
+}
+#marquee {
+    width: 300px;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: -3px;
+}
+#center {               
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+#trapezium {
+    height: 0;
+    width: 120px;
+    border-bottom: 120px solid #ec3504;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+}
